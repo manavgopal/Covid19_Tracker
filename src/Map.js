@@ -1,7 +1,7 @@
 import React from "react";
 import { Map as LeafletMap, TileLayer } from "react-leaflet";
 import "./Map.css";
-import { showDataOnMap } from "./util";
+import { showDataOnMap } from "./util";   // showDataonMap is the function responsible for the circles and thenpopups on ma
 
 function Map({ countries, casesType, center, zoom }) { // Destructuring the props we can also take the input as props and use as props.xxx
   return (
