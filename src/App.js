@@ -57,7 +57,7 @@ const App = () => {
   const [mapZoom, setMapZoom] = useState(4);
 
   useEffect(() => {
-    // This is the API we are using from a site disease.sh - "https://disease.sh/v3/covid-1"
+    // This is the API we are using from a site disease.sh - "https://disease.sh/docs/"
     // This API gives all the information about the covid-19 for a particular country along
     // with country details in json format.
 
